@@ -1,0 +1,92 @@
+# RAG NOTES DATASET
+
+## What is Retrieval-Augmented Generation (RAG)?
+Retrieval-Augmented Generation (RAG) is an AI architecture that combines information retrieval with text generation. Instead of relying only on pre-trained knowledge, RAG fetches relevant documents from a knowledge base and uses them to generate more accurate responses.
+
+## Key Components of RAG
+1. Retriever: Fetches relevant documents using similarity search.
+2. Vector Database: Stores embeddings (e.g., ChromaDB, FAISS).
+3. Embedding Model: Converts text into vectors.
+4. LLM: Generates final answers (e.g., Mistral, Groq models).
+5. Chunking: Splitting documents into smaller pieces for better retrieval.
+
+## What are Embeddings?
+Embeddings are numerical vector representations of text. Similar texts have similar vector representations. These are used to perform semantic search in vector databases.
+
+## What is ChromaDB?
+ChromaDB is an open-source vector database used to store embeddings and perform similarity search. It is lightweight and easy to integrate with LangChain.
+
+## What is LangChain?
+LangChain is a framework for building applications powered by LLMs. It provides tools for chaining LLM calls, managing prompts, integrating vector databases, and building RAG pipelines.
+
+## What is Chunking?
+Chunking is the process of splitting large documents into smaller parts. This improves retrieval accuracy and ensures token limits are not exceeded.
+
+## Types of Chunking
+- Fixed-size chunking
+- Recursive chunking
+- Semantic chunking
+
+## What is Vector Search?
+Vector search finds similar data points using embeddings. It uses distance metrics like cosine similarity or Euclidean distance.
+
+## What is Cosine Similarity?
+Cosine similarity measures the similarity between two vectors. It is widely used in semantic search for RAG systems.
+
+## RAG Workflow
+1. Load documents
+2. Split documents into chunks
+3. Convert chunks into embeddings
+4. Store embeddings in vector database
+5. Query is converted into embedding
+6. Retrieve similar chunks
+7. Pass retrieved context to LLM
+8. Generate final answer
+
+## What is Prompt Engineering?
+Prompt engineering is the process of designing inputs for LLMs to get better responses. In RAG, prompts include both user query and retrieved context.
+
+## What is Hallucination in LLMs?
+Hallucination occurs when an LLM generates incorrect or fabricated information. RAG helps reduce hallucination by grounding responses in retrieved data.
+
+## Advantages of RAG
+- Reduces hallucinations
+- Uses up-to-date information
+- Improves accuracy
+- Custom knowledge integration
+
+## Limitations of RAG
+- Retrieval errors can affect output
+- Requires good chunking strategy
+- Latency can increase due to retrieval step
+
+## Mistral Model Overview
+Mistral models are efficient open-weight LLMs optimized for performance and cost. They are commonly used in production RAG systems.
+
+## Groq Overview
+Groq provides ultra-fast inference for LLMs. It is useful when low latency is required in RAG applications.
+
+## Use Cases of RAG
+- Chatbots
+- Document Q&A systems
+- Knowledge base assistants
+- Customer support automation
+
+## Best Practices
+- Use good chunk size (200-500 tokens)
+- Use overlap between chunks
+- Clean text before embedding
+- Use relevant embedding model
+- Tune retrieval parameters (top_k)
+
+## Example Query
+User: What is RAG?
+System: Retrieves relevant chunks and generates answer using LLM.
+
+## Notes on Performance
+- Smaller chunks improve retrieval precision
+- Larger chunks provide more context
+- Balance is required for optimal results
+
+## Future of RAG
+RAG is evolving with better retrieval techniques, hybrid search (BM25 + vector), and agent-based systems.
