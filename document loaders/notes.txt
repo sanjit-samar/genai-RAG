@@ -1,92 +1,113 @@
-# RAG NOTES DATASET
+# ABC Institute of Technology - Knowledge Base
 
-## What is Retrieval-Augmented Generation (RAG)?
-Retrieval-Augmented Generation (RAG) is an AI architecture that combines information retrieval with text generation. Instead of relying only on pre-trained knowledge, RAG fetches relevant documents from a knowledge base and uses them to generate more accurate responses.
+## About the College
+ABC Institute of Technology (ABCIT) is a private engineering college established in 2008. It offers undergraduate and postgraduate programs in Computer Science, Information Science, Mechanical Engineering, Civil Engineering, and Electronics & Communication.
 
-## Key Components of RAG
-1. Retriever: Fetches relevant documents using similarity search.
-2. Vector Database: Stores embeddings (e.g., ChromaDB, FAISS).
-3. Embedding Model: Converts text into vectors.
-4. LLM: Generates final answers (e.g., Mistral, Groq models).
-5. Chunking: Splitting documents into smaller pieces for better retrieval.
+## Departments
+- Computer Science Engineering (CSE)
+- Information Science Engineering (ISE)
+- Electronics & Communication Engineering (ECE)
+- Mechanical Engineering (ME)
+- Civil Engineering (CE)
 
-## What are Embeddings?
-Embeddings are numerical vector representations of text. Similar texts have similar vector representations. These are used to perform semantic search in vector databases.
+## Computer Science Department Overview
+The CSE department focuses on software development, artificial intelligence, machine learning, cloud computing, and full-stack development. Students are trained in programming languages such as Python, Java, and JavaScript.
 
-## What is ChromaDB?
-ChromaDB is an open-source vector database used to store embeddings and perform similarity search. It is lightweight and easy to integrate with LangChain.
+## Subjects in CSE (3rd Year)
+- Data Structures and Algorithms
+- Operating Systems
+- Database Management Systems (DBMS)
+- Computer Networks
+- Software Engineering
 
-## What is LangChain?
-LangChain is a framework for building applications powered by LLMs. It provides tools for chaining LLM calls, managing prompts, integrating vector databases, and building RAG pipelines.
+## What is DBMS?
+Database Management System (DBMS) is software used to store, manage, and retrieve data efficiently. Examples include MySQL, PostgreSQL, and MongoDB.
 
-## What is Chunking?
-Chunking is the process of splitting large documents into smaller parts. This improves retrieval accuracy and ensures token limits are not exceeded.
+## What is Operating System?
+An Operating System (OS) is system software that manages hardware resources and provides services to applications. Examples include Linux, Windows, and macOS.
 
-## Types of Chunking
-- Fixed-size chunking
-- Recursive chunking
-- Semantic chunking
+## Placement Information
+The college has an average placement rate of 78%. Top recruiting companies include TCS, Infosys, Wipro, Accenture, and Capgemini.
 
-## What is Vector Search?
-Vector search finds similar data points using embeddings. It uses distance metrics like cosine similarity or Euclidean distance.
+## Highest Package
+The highest package offered in 2024 was 18 LPA for a Computer Science student.
 
-## What is Cosine Similarity?
-Cosine similarity measures the similarity between two vectors. It is widely used in semantic search for RAG systems.
+## Internship Opportunities
+Students are encouraged to take internships from the 2nd year onwards. The college provides support through its Training and Placement Cell.
 
-## RAG Workflow
-1. Load documents
-2. Split documents into chunks
-3. Convert chunks into embeddings
-4. Store embeddings in vector database
-5. Query is converted into embedding
-6. Retrieve similar chunks
-7. Pass retrieved context to LLM
-8. Generate final answer
+## Library Facilities
+The college library has over 50,000 books, digital resources, journals, and access to online learning platforms.
 
-## What is Prompt Engineering?
-Prompt engineering is the process of designing inputs for LLMs to get better responses. In RAG, prompts include both user query and retrieved context.
+## Attendance Rules
+Students must maintain a minimum of 75% attendance in each subject to be eligible for exams.
 
-## What is Hallucination in LLMs?
-Hallucination occurs when an LLM generates incorrect or fabricated information. RAG helps reduce hallucination by grounding responses in retrieved data.
+## Examination System
+- Internal Assessment (IA): 40 marks
+- End Semester Exam: 60 marks
+- Passing marks: 40%
 
-## Advantages of RAG
-- Reduces hallucinations
-- Uses up-to-date information
-- Improves accuracy
-- Custom knowledge integration
+## What is CGPA?
+CGPA (Cumulative Grade Point Average) is the average of grade points obtained in all subjects. It is used to evaluate academic performance.
 
-## Limitations of RAG
-- Retrieval errors can affect output
-- Requires good chunking strategy
-- Latency can increase due to retrieval step
+## Hostel Facilities
+Separate hostel facilities are available for boys and girls. The hostel provides Wi-Fi, mess, and 24/7 security.
 
-## Mistral Model Overview
-Mistral models are efficient open-weight LLMs optimized for performance and cost. They are commonly used in production RAG systems.
+## Clubs and Activities
+- Coding Club
+- Robotics Club
+- Cultural Club
+- Entrepreneurship Cell
 
-## Groq Overview
-Groq provides ultra-fast inference for LLMs. It is useful when low latency is required in RAG applications.
+## Coding Club Details
+The Coding Club conducts weekly coding contests, hackathons, and workshops on Data Structures, Competitive Programming, and Web Development.
 
-## Use Cases of RAG
-- Chatbots
-- Document Q&A systems
-- Knowledge base assistants
-- Customer support automation
+## Hackathon Information
+ABCIT organizes an annual 24-hour hackathon called "CodeStorm" where students build innovative projects.
 
-## Best Practices
-- Use good chunk size (200-500 tokens)
-- Use overlap between chunks
-- Clean text before embedding
-- Use relevant embedding model
-- Tune retrieval parameters (top_k)
+## Final Year Project
+Students must complete a major project in their final year. Topics include AI, Web Development, IoT, and Blockchain.
 
-## Example Query
-User: What is RAG?
-System: Retrieves relevant chunks and generates answer using LLM.
+## What is Machine Learning?
+Machine Learning is a field of AI where systems learn from data and improve performance without being explicitly programmed.
 
-## Notes on Performance
-- Smaller chunks improve retrieval precision
-- Larger chunks provide more context
-- Balance is required for optimal results
+## What is Cloud Computing?
+Cloud Computing provides on-demand computing services like storage, servers, and databases over the internet.
 
-## Future of RAG
-RAG is evolving with better retrieval techniques, hybrid search (BM25 + vector), and agent-based systems.
+## Wi-Fi Access
+Students can access campus Wi-Fi using their student ID and password.
+
+## Grading System
+- O: Outstanding (90-100)
+- A+: Excellent (80-89)
+- A: Very Good (70-79)
+- B: Good (60-69)
+- C: Average (50-59)
+- F: Fail (<50)
+
+## Scholarships
+Merit-based and need-based scholarships are available for eligible students.
+
+## FAQs
+
+Q: What is the minimum attendance required?
+A: 75% attendance is mandatory.
+
+Q: Which companies visit for placement?
+A: TCS, Infosys, Wipro, Accenture, Capgemini.
+
+Q: Does the college support internships?
+A: Yes, through the placement cell.
+
+Q: What is the highest package?
+A: 18 LPA in 2024.
+
+Q: Are hackathons conducted?
+A: Yes, annual hackathon "CodeStorm".
+
+## Notes for RAG Testing
+- Ask questions like:
+  - "What is the attendance requirement?"
+  - "Which companies visit the college?"
+  - "Explain DBMS"
+  - "What is the highest package?"
+  - "Tell me about coding club"
