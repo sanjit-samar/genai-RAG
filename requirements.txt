@@ -5,6 +5,7 @@ python-dotenv
 langchain
 langchain-core
 langchain-community
+langchain-huggingface
 
 langchain-groq
 langchain-mistralai
