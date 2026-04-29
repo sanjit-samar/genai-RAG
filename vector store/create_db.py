@@ -41,6 +41,6 @@ for i in range(0, len(chunks), batch_size):
     print(f"Processed batch {i // batch_size + 1}")
 
 # 7. Persist DB for older version of chroma from version 0.4+ no need to do manually
-vector_store.persist()
+# vector_store.persist()
 
 print("✅ Embedding completed successfully!")
